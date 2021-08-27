@@ -1,6 +1,4 @@
-# FROM node:12-alpine
-# RUN apk add --no-cache python g++ make
-# WORKDIR /app
+
 FROM ruby:2.5.5-alpine3.8
 
 RUN mkdir -p /srv/code
