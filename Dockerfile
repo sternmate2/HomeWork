@@ -1,5 +1,5 @@
 
-FROM AWSACCOUNTID.dkr.ecr.us-east-1.amazonaws.com/base:v@BASE_NUMBER
+FROM 45668227719.dkr.ecr.us-east-1.amazonaws.com/base:v@BASE_NUMBER
 WORKDIR /srv/code
 COPY . /srv/code
 
