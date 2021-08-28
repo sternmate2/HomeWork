@@ -23,7 +23,7 @@ COPY . /srv/code
 # install default version of bundler
 RUN gem install bundler --version 2.0.1 && \
     gem install passenger --version 6.0.2 && \ 
-    passenger-config compile-agent --auto --optimize && \
+    # passenger-config compile-agent --auto --optimize && \
     passenger-config install-standalone-runtime --auto --url-root=fake --connect-timeout=1 && \ passenger-config build-native-support
 # install default version of passenger
 
